@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <div class="title">
+                <h2>Distance converter</h2>
+            </div>
+            
+            <div class="select_container">
+
+                <div class="input_data">
+                    <label>Input length: </label>
+                    <input type="text" id="input_value">
+                </div>
+                
+                <div class="selector_field">
+                    <div class="from_field">
+
+                        <div class="from">
+                            <label for="amount">From: </label>
+                            <select name="from" id="from">
+                                <option value="none">not selected</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="to_field">
+    
+                        <div class="to">
+                            <label for="amount">To: </label>
+                            <select name="to" id="to">
+                                <option value="none">not selected</option>
+                            </select>
+                        </div>
+    
+                    </div>
+                </div>
+            
+                <div class="result_data">
+                    <label>Result: </label>
+                    <input type="text" id="result_value" disabled>
+                </div>
+
+            </div>
+
+            <div class="buttons">
+                <button class="converter" >Convert</button>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js" type="module"></script>
+
+</body>
+</html>

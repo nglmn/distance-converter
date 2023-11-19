@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    min-height: 100vh;
+}
+
+.container{
+    width: 500px;
+    background: white;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: medium;
+    width: 100%;
+    
+}
+
+.from_field{
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+
+}
+
+.selector_field{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.from{
+    display: flex;
+    flex-direction: column;
+}
+
+.to_field{
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+}
+
+.to{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_data{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text]{
+    padding: 10px;
+    margin: 8px 0;
+    height: 40px;
+    width: 100%;
+    font-size: larger;
+}
+
+.result_data{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width: 200px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+button{
+    background-color: #7b94f1;
+    border: none;
+    color: white;
+    width: 50%;
+    border-radius: 8px;
+    padding: 15px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.1s;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #5472dc;
+}
+button:active{
+    background-color: #4d66c3;
+    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
